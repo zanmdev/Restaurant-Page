@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Create a mock up resturant page using only Javascript to create DOM elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TESTING WORKING\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanmdev/Restaurant-Page.git"
+  },
+  "author": "Zanmdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanmdev/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/zanmdev/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
