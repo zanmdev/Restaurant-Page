@@ -1,5 +1,8 @@
 # Restaurant-Page
 
-Project to create a restaurant page using only Javascript to create all the DOM elements on the page.
+A project to make a restaurant page using only Javascript to create all the DOM elements on the page.
 
-Built With: HTML, CSS, Javascript, Webpack
+Built with: HTML, CSS, Javascript, Webpack
+
+Background Image by [Ivan Stern](https://unsplash.com/@attianart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  

@@ -11,6 +11,7 @@ function firstLoad(){
     main.classList.add("main");
     main.appendChild(home());
 
+
     content.appendChild(main);
 }
 

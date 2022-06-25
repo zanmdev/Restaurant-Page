@@ -1,11 +1,16 @@
 function navigation() {
 
     const nav = document.createElement("nav");
-    nav.id = "navigation";
+    nav.id = "navigation";  
 
+    const header = document.createElement("h1");
     const homeButton = document.createElement("button");
     const menuButton = document.createElement("button");
     const contactButton = document.createElement("button");
+    const buttonContainer = document.createElement("div");
+
+    header.id = "title"
+    header.textContent = "RESTAURANT"
 
     homeButton.id = "home"
     homeButton.classList.add("btn");
@@ -19,9 +24,14 @@ function navigation() {
     contactButton.classList.add("btn");
     contactButton.textContent = "Contact Us";
 
-    nav.appendChild(homeButton);
-    nav.appendChild(menuButton);
-    nav.appendChild(contactButton);
+    buttonContainer.classList.add("btn-container");
+
+    
+    nav.appendChild(header);
+    buttonContainer.appendChild(homeButton);
+    buttonContainer.appendChild(menuButton);
+    buttonContainer.appendChild(contactButton);
+    nav.appendChild(buttonContainer);
 
     return nav
 

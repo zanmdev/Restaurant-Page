@@ -24,7 +24,13 @@ homeBtn.addEventListener("click", () =>{
 
 menuBtn.addEventListener("click", () =>{
     clear();
-    menuPage();
+    main.appendChild(menuPage());
 });
+
+contactBtn.addEventListener("click", () =>{
+    clear();
+    
+});
+
 
 
