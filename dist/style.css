@@ -58,9 +58,7 @@ body{
     text-align: center;
 }
 
-#menu {
-    overflow: scroll;
-}
+
 
 #menu > h1{
     text-align: center;
@@ -69,10 +67,22 @@ body{
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
-
+    height: 100%;
+    align-content: space-around;
 }
 
 .item{
     display: flex;
+}
+
+.item > img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 225px;
 }

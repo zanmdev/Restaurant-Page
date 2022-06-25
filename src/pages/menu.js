@@ -21,6 +21,7 @@ function menuPage() {
         const descriptionDiv = document.createElement("div");
         descriptionDiv.classList.add("description");
         const itemTitle = document.createElement("h3");
+        const itemPrice = document.createElement("h6");
         const itemDesc = document.createElement("p");
         const itemDiv = document.createElement("div");
         itemDiv.classList.add("item");
@@ -28,9 +29,11 @@ function menuPage() {
         img.src = item.image;
         itemTitle.textContent = item.name;
         itemDesc.textContent = item.Desc;
+        itemPrice.textContent = item.Price;
 
         itemDiv.appendChild(img);
         descriptionDiv.appendChild(itemTitle);
+        descriptionDiv.appendChild(itemPrice);
         descriptionDiv.appendChild(itemDesc);
         itemDiv.appendChild(descriptionDiv);
     
