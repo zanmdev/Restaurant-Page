@@ -1,4 +1,5 @@
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,13 +13,17 @@ body{
     overflow: hidden;
 }
 
-
+/*Header */
 #navigation{
     display: flex;
     justify-content: space-around;
     padding: 25px;
     background-color: rgb(18, 65, 126);
 }
+#title{
+    color: white;
+}
+
 
 .btn-container{
     
@@ -29,8 +34,20 @@ body{
 
 .btn{
     padding: 5px 15px;
+    padding: 5px 15px;
+    background: 0;
+    border: 0;
+    font-size: 18px;
+    color: white;
+}
+.btn:hover{
+    color: rgb(218, 144, 144);
+}
+.red{
+    color: red;
 }
 
+/*Content Holder */
 .content{
     height: 100%;
 }
@@ -53,17 +70,20 @@ body{
     opacity: 0.8;
     padding: 35px;
 }
-
+/*Home Tab */
 #home{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-
-#menu > h1{
+#menu > h1, #contact >h1{
     text-align: center;
 }
 
+/*Menu Tab */
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,4 +105,21 @@ body{
     flex-direction: column;
     margin-left: 15px;
     width: 225px;
+}
+/*Contact Us */
+.map{
+    width:400px; 
+    height:300px;  
+    border: 0;
+    
+}
+
+#contact{
+    opacity: 1;
+}
+
+.map-container{
+    display: flex;
+    margin-top: 25px;
+    gap: 35px;
 }

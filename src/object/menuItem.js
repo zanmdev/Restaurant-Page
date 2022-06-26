@@ -1,27 +1,32 @@
+import burger from "../assets/burger.jpg";
+import sushi from "../assets/sushi.jpg";
+import bowl from "../assets/bowl.jpg";
+import pizza from "../assets/pizza.jpg";
+
 let menuItems = [
     {
         "name":"Burger",
         "Desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "Price":"$24.99",
-        "image":"https://via.placeholder.com/150"
+        "image":burger,
     },
     {
-        "name":"Taco",
+        "name":"Sushi",
         "Desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "Price":"$15.99",
-        "image":"https://via.placeholder.com/150"
+        "image":sushi
     },
     {
-        "name":"Salad",
+        "name":"Salad Bowl",
         "Desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "Price":"$10.99",
-        "image":"https://via.placeholder.com/150"
+        "image":bowl
     },
     {
-        "name":"Soup",
+        "name":"Pizza",
         "Desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
         "Price":"$19.99",
-        "image":"https://via.placeholder.com/150"
+        "image":pizza
     },
     
 ]
